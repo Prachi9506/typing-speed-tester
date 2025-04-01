@@ -26,22 +26,22 @@ class TypingTest {
                 "The small cafe on the corner serves the best coffee and fresh pastries daily."
             ],
             medium: [
-                "The sophisticated algorithm processes data efficiently, while maintaining accuracy and speed.",
-                "Environmental scientists study the complex interactions between organisms and their ecosystems.",
-                "The revolutionary technology transforms how we communicate and share information globally.",
-                "Professional development opportunities enhance skills and promote career advancement."
+                "The sophisticated algorithm processes data efficiently, while maintaining accuracy and speed.Hard work and dedication often lead to success, but patience is just as important in achieving one’s goals.",
+                "Environmental scientists study the complex interactions between organisms and their ecosystems.As technology rapidly advances, people must adapt and learn new skills to keep up with the changing world.",
+                "The revolutionary technology transforms how we communicate and share information globally.The beauty of nature lies in its unpredictability",
+                "Professional development opportunities enhance skills and promote career advancement.one moment the sky is clear, the next, clouds gather, and rain begins to fall."
             ],
             hard: [
-                "The quintessential characteristics of quantum mechanics challenge our fundamental understanding of reality.",
-                "Neuroplasticity demonstrates the brain's remarkable ability to reorganize and adapt to environmental changes.",
-                "The implementation of cryptocurrency blockchain technology revolutionizes financial transactions worldwide.",
-                "Interdisciplinary research combines methodologies from multiple academic fields to solve complex problems."
+                "The quintessential characteristics of quantum mechanics challenge our fundamental understanding of reality.The human brain, an intricate network of neurons and synapses, processes information at an astonishing speed, yet it remains a mystery in many ways.",
+                "Neuroplasticity demonstrates the brain's remarkable ability to reorganize and adapt to environmental changes.In a world driven by competition, those who embrace lifelong learning and adaptability will find themselves ahead of the curve.",
+                "The implementation of cryptocurrency blockchain technology revolutionizes financial transactions worldwide.In a world driven by competition, those who embrace lifelong learning and adaptability will find themselves ahead of the curve.",
+                "Interdisciplinary research combines methodologies from multiple academic fields to solve complex problems.Despite the challenges and setbacks that life throws at us, resilience, determination, and self-belief can turn failures into stepping stones for success."
             ],
             expert: [
-                "The phenomenological interpretation of quantum mechanics suggests consciousness plays a fundamental role in reality.",
-                "Bioengineered nanomaterials demonstrate unprecedented potential for targeted drug delivery systems.",
-                "The anthropogenic impact on global climate systems necessitates immediate international cooperation.",
-                "The epistemological foundations of scientific methodology undergo continuous philosophical scrutiny."
+                "The phenomenological interpretation of quantum mechanics suggests consciousness plays a fundamental role in reality.As the golden hues of the evening sun cast long shadows across the cobblestone streets, a gentle breeze carried the faint aroma of blooming jasmine, evoking a sense of nostalgia and tranquility.",
+                "Bioengineered nanomaterials demonstrate unprecedented potential for targeted drug delivery systems.The complexity of artificial intelligence lies not only in its algorithms but also in the ethical dilemmas it presents, forcing society to question the boundaries of automation and human decision-making.",
+                "The anthropogenic impact on global climate systems necessitates immediate international cooperation.The complexity of artificial intelligence lies not only in its algorithms but also in the ethical dilemmas it presents, forcing society to question the boundaries of automation and human decision-making.",
+                "The epistemological foundations of scientific methodology undergo continuous philosophical scrutiny.While scientific discoveries propel humanity toward an era of unprecedented innovation, the ethical responsibilities that accompany such progress remain a subject of intense debate among scholars and policymakers alike."
             ]
         };
 
@@ -194,7 +194,7 @@ class TypingTest {
         const challenges = [
             'The quick brown fox jumps over the lazy dog'.split('').reverse().join(''),
             'Pack my box with five dozen liquor jugs'.split('').map(c => c.toUpperCase()).join(''),
-            'How vexingly quick daft zebras jump'.split('').join('   ')
+            'How vexingly quick daft zebras jump'.split('').join('&')
         ];
         return challenges[Math.floor(Math.random() * challenges.length)];
     }
